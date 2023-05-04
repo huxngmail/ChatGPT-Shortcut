@@ -87,9 +87,9 @@ export const Tags: { [type in TagType]: Tag } = {
   },
 
   philosophy: {
-    label: translate({ message: "哲学/宗教" }),
+    label: translate({ message: "哲学" }),
     description: translate({
-      message: "哲学/宗教",
+      message: "哲学",
       id: "showcase.tag.philosophy.description",
     }),
     color: "#ffcaa9",

@@ -1,8 +1,8 @@
 const enNavbar = {
   hideOnScroll: true,
-  title: "ChatGPT SC",
+  title: "ChatGPT Prompts",
   logo: {
-    alt: "ChatGPT Shortcuts",
+    alt: "ChatGPT Prompts",
     src: "img/logo.svg",
   },
   items: [
@@ -13,16 +13,6 @@ const enNavbar = {
       position: 'left',
     },
     { type: "localeDropdown", position: "right" },
-    {
-      href: "https://github.com/rockbenben/ChatGPT-Shortcut",
-      position: "right",
-      className: "header-github-link",
-    },
-    {
-      href: "https://discord.gg/PZTQfJ4GjX",
-      position: "right",
-      className: "header-discord-link",
-    },
   ],
 };
 
