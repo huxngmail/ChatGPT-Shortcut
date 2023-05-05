@@ -88,7 +88,7 @@ function ShowcaseCard({ user, isDescription, copyCount, onCopy }) {
     try {
       const updatedCount = await updateCopyCount(user.id);
       if (paragraphText) {
-        navigator.clipboard.writeText(paragraphText)
+        copy(paragraphText)
       }
       setShowCopied(true);
       setTimeout(() => setShowCopied(false), 2000);
