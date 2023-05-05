@@ -7,8 +7,8 @@ const zhNavbar = {
   },
   items: [
     {
-      to: "https://gpt8.fun",
-      label: "GPT网址导航",
+      to: "https://iv6dtr6tzmb.feishu.cn/docx/RYadd4Lhjo9FBrxZD8VcunB1nCg",
+      label: "提示词使用说明",
       position: "left",
     },
     {
@@ -17,7 +17,11 @@ const zhNavbar = {
       position: 'left',
       items: [
         {
-          label: "GPT3.5最新地址",
+          label: "GPT网址导航",
+          href: "https://gpt8.fun",
+        },
+        {
+          label: "GPT3.5免费体验",
           href: "https://gpt6.fun",
         },
         {

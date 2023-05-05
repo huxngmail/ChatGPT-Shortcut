@@ -59,11 +59,11 @@ function ShowcaseCardTag({ tags }: { tags: TagType[] }) {
 
 function ShowcaseCard({ user, isDescription, copyCount, onCopy }) {
   const [paragraphText, setParagraphText] = useState(
-    isDescription ? user.description : user.desc_cn
+    isDescription ? user.desc_cn : user.description
   );
 
   useEffect(() => {
-    setParagraphText(isDescription ? user.description : user.desc_cn);
+    setParagraphText(isDescription ? user.desc_cn : user.description);
   }, [isDescription, user.description, user.desc_cn]);
 
   // 点击显示中文文本
@@ -87,8 +87,9 @@ function ShowcaseCard({ user, isDescription, copyCount, onCopy }) {
   const handleCopyClick = useCallback(async () => {
     try {
       const updatedCount = await updateCopyCount(user.id);
-      if (user.description) {
-        copy(user.description);
+      console.log(paragraphText)
+      if (paragraphText) {
+        copy(paragraphText);
       }
       setShowCopied(true);
       setTimeout(() => setShowCopied(false), 2000);
@@ -97,7 +98,7 @@ function ShowcaseCard({ user, isDescription, copyCount, onCopy }) {
     } catch (error) {
       console.error("Error updating copy count:", error);
     }
-  }, [user.id]);
+  }, [user.id,paragraphText]);
 
   return (
     <li key={userTitle} className="card shadow--md">
