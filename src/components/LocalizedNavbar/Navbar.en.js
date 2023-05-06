@@ -7,10 +7,28 @@ const enNavbar = {
   },
   items: [
     {
-      href: 'https://www.producthunt.com/posts/chatgpt-shortcut?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-chatgpt&#0045;shortcut',
-      label: 'Find on Product Hunt',
-      target: '_blank',
+      to: "https://iv6dtr6tzmb.feishu.cn/docx/RYadd4Lhjo9FBrxZD8VcunB1nCg",
+      label: "提示词使用说明",
+      position: "left",
+    },
+    {
+      type: 'dropdown',
+      label: 'ChatGPT国内访问',
       position: 'left',
+      items: [
+        {
+          label: "GPT网址导航",
+          href: "https://gpt8.fun",
+        },
+        {
+          label: "GPT3.5免费体验",
+          href: "https://gpt6.fun",
+        },
+        {
+          label: 'GPT4体验地址',
+          href: 'https://chatgpt-4.fun',
+        },
+      ],
     },
     { type: "localeDropdown", position: "right" },
   ],

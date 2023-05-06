@@ -137,7 +137,12 @@ function ShowcaseHeader() {
   return (
     <section className="margin-top--lg margin-bottom--lg text--center">
       <Heading as="h1">ChatGPT Prompts</Heading>
-      <p>{DESCRIPTION}</p>
+      <p>{DESCRIPTION}
+        <br/>
+        支持中英文一键切换、标签筛选、关键词搜索
+        <br/>
+        推荐用英文提示词，回复更精准
+      </p>
     </section>
   );
 }
