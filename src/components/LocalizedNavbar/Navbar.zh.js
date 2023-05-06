@@ -13,7 +13,7 @@ const zhNavbar = {
     },
     {
       type: 'dropdown',
-      label: '友情链接',
+      label: 'ChatGPT国内访问',
       position: 'left',
       items: [
         {
