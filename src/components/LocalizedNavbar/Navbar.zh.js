@@ -7,7 +7,7 @@ const zhNavbar = {
   },
   items: [
     {
-      to: "https://iv6dtr6tzmb.feishu.cn/docx/RYadd4Lhjo9FBrxZD8VcunB1nCg",
+      to: "https://mp.weixin.qq.com/s/3AVO5Z-h_3GaMKdeRKWFbQ",
       label: "提示词使用说明",
       position: "left",
     },
