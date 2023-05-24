@@ -22,7 +22,7 @@ const zhNavbar = {
         },
         {
           label: "GPT3.5免费体验",
-          href: "https://gpt6.fun",
+          href: "https://chat.gpt-p.cn",
         },
         {
           label: 'GPT4体验地址',
